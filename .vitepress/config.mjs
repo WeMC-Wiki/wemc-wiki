@@ -8,7 +8,15 @@ export default defineConfig({
   description: "彻底摆烂~",
   themeConfig: {
     logo: '/Minecraft.png',
+    lastUpdated: {
+			text: '最后更新日期',
+			formatOptions: {
+				dateStyle: 'full',
+				timeStyle: 'medium',
+			},
+		},
     outlineTitle: "本页目录",
+    docFooter: { prev: '上一篇', next: '下一篇' },
     outline: [2, 6],
     // https://vitepress.dev/reference/default-theme-config
     nav: [
