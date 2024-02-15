@@ -107,10 +107,10 @@ const members = [
     name: 'suyeku',
     title: '指导',
     links: [
-      { icon: 'github', link: '#' },
+      { icon: 'github', link: 'https://github.com/suyekun' },
       { icon:  {
         svg: '<svg t="1707905132927" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8315" width="200" height="200"><path d="M513 583.8l448.5-448.5c-11.6-4.7-24.3-7.3-37.5-7.3H100c-12.7 0-24.9 2.4-36.1 6.7L513 583.8z" p-id="8316"></path><path d="M513 674.3L14.6 175.9C5.3 191.1 0 208.9 0 228v568c0 55.2 44.8 100 100 100h824c55.2 0 100-44.8 100-100V228c0-18.5-5.1-35.9-13.9-50.8L513 674.3z" p-id="8317"></path></svg>'},
-        link: '#' }
+        link: 'mailto:2944518176@qq.com' }
     ]
   },
   {
@@ -133,6 +133,6 @@ const members = [
 
 <VPTeamMembers size="small" :members="members" />
 
-::: tip
+::: tip 浅浅的提示一下
 FTCraft招收新人，但是所有收入用于维护项目开发和运行，也就是说没有工资。
 :::

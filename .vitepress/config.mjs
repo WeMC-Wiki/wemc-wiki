@@ -17,7 +17,7 @@ export default defineConfig({
 		},
     outlineTitle: "本页目录",
     docFooter: { prev: '上一篇', next: '下一篇' },
-    outline: [2, 6],
+    outline: [1, 6],
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
@@ -40,11 +40,27 @@ export default defineConfig({
         items: [
           { text: '安装', link: '/guide/installation' },
           {
-            text: '下载',
+            text: '配置',
             items: [
-            { text: '客户端下载', link: '/guide/download' },
+              { text: '优化配置', link: '/guide/configuration' },
+              { text: '顶级画质', link: '/guide/beautiful' },
+              { text: '好的材质', link: '/guide/good' },
             ]
           }
+        ],
+      },
+      {
+        text: '彩蛋',
+        collapsed: true,
+        items: [
+          {
+            text: '赠语',
+            items: [
+              { text: '腐竹赠语', link: '/fuck/owner' },
+              { text: '宣传赠语', link: '/fuck/helper' },
+              { text: '指导赠语', link: '/fuck/awa'},
+            ],
+          },
         ],
       },
     ],
