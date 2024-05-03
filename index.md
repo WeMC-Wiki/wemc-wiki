@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 现在开始
       link: /guide/configuration
+    - theme: brand
+      text: 维护通知
+      link: /notice
 
 features:
   - title: 热情
