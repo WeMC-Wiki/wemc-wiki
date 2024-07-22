@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   head: [["link", { rel: "icon", href: "/Minecraft.png" }]],
   base: "/wemc-wiki/",
-  title: "WeMC-Wiki
+  title: "WeMC-Wiki",
   themeConfig: {
     logo: '/Minecraft.png',
     lastUpdated: {
