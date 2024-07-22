@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "FTCraft | Minecraft"
+  name: "WeMC-Wiki"
   text: "一个一直退步永不进步的服务器"
   tagline: 彻底摆烂~
   image:
