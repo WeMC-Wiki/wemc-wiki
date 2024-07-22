@@ -20,48 +20,48 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于', link: '/about' }
+//      { text: '关于', link: '/about' }
     ],
     sidebar: [
       {
-        text: '简介',
-        collapsed: true,
+        text: '快速开始',
+        collapsed: false,
         items: [
-          { text: '关于', link: '/about' },
-          { text: '历史', link: '/history' },
-          { text: '团队', link: '/team'},
-          { text: '计划', link: '/plan'},
+          { text: '小白无脑开服', link: '/start' },
+          { text: '进阶开服Ⅰ', link: '/more_1' },
+          { text: '进阶开服Ⅱ', link: '/more_2'},
+          { text: '进阶开服Ⅲ', link: '/more_3'},
         ],
       },
-      {
-        text: '指南',
-        collapsed: true,
-        items: [
-          { text: '安装', link: '/guide/installation' },
-          {
-            text: '配置',
-            items: [
-              { text: '优化配置', link: '/guide/configuration' },
-              { text: '顶级画质', link: '/guide/beautiful' },
-              { text: '好的材质', link: '/guide/good' },
-            ]
-          }
-        ],
-      },
-      {
-        text: '彩蛋',
-        collapsed: true,
-        items: [
-          {
-            text: '赠语',
-            items: [
-              { text: '腐竹赠语', link: '/fuck/owner' },
-              { text: '宣传赠语', link: '/fuck/helper' },
-              { text: '指导赠语', link: '/fuck/awa'},
-            ],
-          },
-        ],
-      },
+//      {
+//        text: '指南',
+//        collapsed: true,
+//        items: [
+//          { text: '安装', link: '/guide/installation' },
+//          {
+//            text: '配置',
+//            items: [
+//              { text: '优化配置', link: '/guide/configuration' },
+//              { text: '顶级画质', link: '/guide/beautiful' },
+//              { text: '好的材质', link: '/guide/good' },
+//            ]
+//          }
+//        ],
+//      },
+//      {
+//        text: '彩蛋',
+//        collapsed: true,
+//        items: [
+//          {
+//            text: '赠语',
+//            items: [
+//              { text: '腐竹赠语', link: '/fuck/owner' },
+//              { text: '宣传赠语', link: '/fuck/helper' },
+//              { text: '指导赠语', link: '/fuck/awa'},
+//            ],
+//          },
+//        ],
+//      },
     ],
 
     socialLinks: [
@@ -88,7 +88,7 @@ export default defineConfig({
       },
     },
     footer: {
-      copyright: 'Copyright © 2024 FTCraft Team'
+      copyright: 'Copyright © 2024 WeMC第三方Wiki'
     },
   }
 })
