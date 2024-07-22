@@ -35,7 +35,7 @@ MC从原始时代进化到插件时代,每一次都会更加Beautiful和Easy.
 
 不过我要吊一下你的胃口:
 
-![An image](./image.png)
+![An image](/image.png)
 
 好了,你下载完了`MiniMotd`后也成功丢到`plugins`文件夹后且重启了,那么不出意外的话你能在`plugins`里面看到一个`MiniMotd`的文件夹,打开,里面不出意外的话是有一个叫做`main.conf`的文件.
 
@@ -228,7 +228,7 @@ player-count-settings {
 
 当然也可以`<yellow>Hello <blue>World</blue>!`
 
-![image](./minimotd.png)
+![image](/minimotd.png)
 
 没错,两个`<tag>`标签括住,其他就是开头标签.
 
@@ -236,7 +236,7 @@ player-count-settings {
 
 `<underlined>This is <bold>important</bold>!`我们来猜一猜:
 
-![motd](./motd2.png)
+![motd](/motd2.png)
 
 没错,下划线是`<underlined>`加粗是`<bold>`
 
@@ -250,7 +250,7 @@ player-count-settings {
 ```
 (其实我感觉都差不多)
 
-![3](./motd3.png)
+![3](/motd3.png)
 
 of course,渐变色也是嘎嘎好看的,那么怎么做捏
 
@@ -267,7 +267,7 @@ of course,渐变色也是嘎嘎好看的,那么怎么做捏
 
 什么?不知道配什么渐变色?我这里有一个我常用的[[渐变色网站]](https://webgradients.com)
 :::
-![4](./motd4.png)
+![4](/motd4.png)
 
 当然还有些奇奇怪怪和好玩的请自行去源Wiki发掘（
 
@@ -280,7 +280,7 @@ of course,渐变色也是嘎嘎好看的,那么怎么做捏
 ```
 
 你看图片能猜出他的作用嘛?
-![5](./motd5.png)
+![5](/motd5.png)
 
 :::details
 第一行是从#00ff00到#ff0000进行渐变
