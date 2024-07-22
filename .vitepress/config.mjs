@@ -3,9 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [["link", { rel: "icon", href: "/Minecraft.png" }]],
-//  base: "/ftcraft/",   我草你妈，傻逼玩意要注释，我也傻逼没看Wiki，日麻的找了一下午
-  title: "FTCraft | Minecraft",
-  description: "彻底摆烂~",
+  base: "/wemc-wiki/",
+  title: "WeMC-Wiki
   themeConfig: {
     logo: '/Minecraft.png',
     lastUpdated: {
