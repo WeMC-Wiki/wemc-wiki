@@ -28,7 +28,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '小白无脑开服', link: '/start' },
-          { text: '常见问题[必看]', link: '/notic'},
+          { text: '常见问题[必看]', link: '/notice'},
           { text: '进阶开服Ⅰ', link: '/more_1' },
           { text: '进阶开服Ⅱ', link: '/more_2'},
           { text: '进阶开服Ⅲ', link: '/more_3'},
