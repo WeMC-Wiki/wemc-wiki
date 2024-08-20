@@ -33,6 +33,8 @@ sidebar_position: 1
 |混合服| Arclight/Mohist/Catserver|
 |整合包| Arclight/Mohist/Catserver/Fabric|
 
+下载可以前往由**😝刚一不调皮😝（上学中勿扰）**WeMC管理员提供的[下载站](http://coredl.tifenc.asia/).内含多位大佬(和我这个废物)提供的多种插件/Mod等
+
 :::warning 警告
 由于Forge端需要图形化界面,而WeMC使用的服务器为Linux,无法使用图形化界面,故无法在WeMC开Forge端的服务器.
 
