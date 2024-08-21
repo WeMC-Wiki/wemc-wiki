@@ -5,6 +5,7 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/Minecraft.png" }]],
   base: "/wemc-wiki/",
   title: "WeMC-Wiki",
+  description: 'WeMC第三方Wiki.',
   themeConfig: {
     logo: '/Minecraft.png',
     lastUpdated: {
